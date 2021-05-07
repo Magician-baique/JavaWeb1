@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+/*弹出层*/
+.EjectT{
+	position: fixed;
+	display: none;
+	z-index:2;	
+	width:100%;
+	height:100%;
+	justify-content: center;
+	align-items: center;
+	background:rgba(10,10,10,0.39);
+}
+
+
+.Eject{
+	position: fixed;
+	z-index:1;	
+	width:35rem;
+	height:20rem;
+	background:rgba(255,255,255,1.00);
+}
+
+.purchaseEjectT{
+	width:30%;
+	height:2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #000000;
+	border-radius:20px;
+	margin:0 auto;
+	margin-top:1rem;
+}
+
+
+.commodityImage{
+	margin-top:1rem;
+	display: flex;
+}
+
+
+.introduceFont{
+	font-size:10px;
+}
+
+.LoginBtn{
+	width:98%;
+	height:20%;
+	background: none;
+	border:2px solid rgba(0,0,0,1.00);
+}
+
+.cloneEjectT{
+	width:100%;
+	height:10%;
+	background: none;
+	border:2px solid rgba(0,0,0,1.00);
+	border-radius: 20px;
+}
+
+.cloneEjectT2{
+	width:50%;
+	height:100%;
+	margin:0 auto;
+	margin-top:10%;
+}
+
+
+/*弹出层结束*/
+
+
+.TopDiv{
+	width:90%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.TopGs{
+	width:20%;
+	height:2rem;
+	margin-top:1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #000000;
+	border-radius:20px;
+	
+}
+
+.purchaseFont{
+	width:100%;
+	margin-top:2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.purchaseMac{
+	width:100%;
+	margin-top:2rem;
+	display: flex;
+	justify-content: center;	
+}
+
+.purchase{
+	width:300%;
+	height:2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #000000;
+	border-radius:20px;
+}
+
+
+.purchase2{
+	width:300%;
+	height:2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #000000;
+	border-radius:20px;
+	margin-top:3rem;
+}

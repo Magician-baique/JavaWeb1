@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url("../image/不知火.jpg");
+}
+
+.registerWindow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 12rem;
+}
+
+.Into{
+	width:18rem;
+	height:auto;
+}
+
+.InTxt{
+	width:18rem;
+	font-size:16px;
+	margin-top:1.5rem;
+	border:none;
+	border-bottom:2px solid antiquewhite;
+	outline: none;
+	background:none;
+	color: antiquewhite;
+}
+
+.InTxt::-webkit-input-placeholder{
+	color: antiquewhite;
+}
+
+.black{
+	width:18rem;
+	height:auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.black a{
+	color: antiquewhite;
+}
+
+.InTxtButton{
+	width:18rem;
+	height:2rem;
+	margin-top:1rem;
+	border-radius: 6px;
+	outline: none;
+	background:antiquewhite;
+	border:none;
+}
+
+.black{
+	width:100%;
+	height:auto;
+	display: flex;
+	justify-content: space-between；
+}
